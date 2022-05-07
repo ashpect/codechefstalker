@@ -161,8 +161,8 @@ commentblog = (res) => {
     }
 }
 
-let api_key = "801f947e0fad49c2cd734d90689256d1a62a0cce";
-let api_secret = "34add28887078de1449a980fa8f443e72ea4c4c1";
+let api_key = "0";
+let api_secret = "0";
 let apisig = 123456;
 var ts = Math.round((new Date()).getTime() / 1000);
 const h1 = "123456/user.friends?apiKey=" + api_key + "&onlyOnline=false&time=" + ts + "#" + api_secret;
