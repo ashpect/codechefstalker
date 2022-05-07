@@ -1,0 +1,28 @@
+.inputtext{
+    text-align: center;
+    padding: 20vw;
+    font-weight: 300;
+}
+.infos{
+    text-align: center;
+    padding: 20vw;
+}
+.chart{
+    text-align: center;
+    padding: 5vw;
+}
+.blogpart{
+    text-align: center;
+    padding: 10vw;
+}
+.commentpart{
+    text-align: center;
+    padding: 10vw;
+}
+.puthandle{
+    align-items: center;
+}
+.fren{
+    align-items: center;
+}
+

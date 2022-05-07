@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GODDAMN..</title>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  </head>
+  <body>
+    <div class = "inputtext">Input Handle:</div> <input type="text" id="inputhandleid" >
+    <button class="puthandle" onclick="callgetuserinfo()">Submit</button>
+    <div class="infos">
+      <p id="name">NAME</p>
+      <p id="rating">RATING</p>
+      <p id="maxrating">MAXRATING</p>
+      <p id="rank">RANK</p>
+      <p id="organization">ORGANIZATION</p>
+    </div>
+    <div class="blogpart" id="blogpaart">
+        Previous 4 Blogs : 
+        <div class="blogs" id="blogs">
+            <p id="blog1">Blog1</p>
+            <p id="blog2">Blog2</p>
+            <p id="blog3">Blog3</p>
+            <p id="blog4">Blog4</p>
+        </div>
+    </div>
+    <div class="commentpart">
+        Previous 3 Comments : 
+        <div class="comments" id="comments">
+            <p id="comment1">Comment1</p>
+            <p id="comment2">Comment2</p>
+            <p id="comment3">Comment3</p>
+        </div>
+    </div>
+    <div class = "chart">
+        <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+    </div>
+    <div class="fren">
+        CREATOR's ONLINE FRIENDS
+        <p id="online">ONLINE FRENS</p>
+        <p id="all">ALL FRENDS</p>
+    </div>
+  </body>
+</html>
